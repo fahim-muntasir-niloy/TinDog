@@ -1,0 +1,118 @@
+.title{
+    background-color: #ff4c68;
+}
+body{font-family:'product-sans',sans-serif;
+width: auto;}
+
+.navbar-brand{font-family: 'ubuntu', sans-serif;
+font-size: 2.5rem;
+font-weight: bold;}
+
+.nav-item{padding:0 20px;
+font-family: 'ubuntu';
+font-size: 1.2rem;}
+
+#iphonetitle{transform: rotate(20deg);
+width: 20rem;
+position: absolute;
+right: 20%;
+}
+@media(max-width: 1350px){
+    #iphonetitle{
+        width: 15rem;
+        position: static;}
+    .display-4{text-align: center;}
+}
+
+/* download button */
+#Download{border-radius: 3rem;
+margin: 0 3% 5% 0;}
+
+.display-4{font-family: 'product sans', sans-serif;
+color: antiquewhite;
+font-size: 5rem;
+font-weight: bold;
+padding: 0 0 50px 0 ;}
+
+#navbar{padding: 0%}
+#landing{padding-top: 5%;}
+
+.container-fluid{padding: 3% 10% 7%;}
+
+/* Fetures */
+
+#features{padding: 5% 10%;
+background-color: bisque;
+position: relative;
+z-index: 10;}
+
+#f_item{padding: 5%;}
+
+h3{padding:0;
+    font-family: 'Product Sans',sans-serif;
+    font-size: 2.5rem;
+    font-weight:bold;
+color: rgb(37, 30, 32);}
+
+p{color: #8f8f8f;
+margin: 0%;
+line-height: 2em;
+text-align: center;}
+
+.midlogo{color: #ef8172;
+    padding: 3%;}
+.midlogo:hover{color: #ff4c68;} 
+
+/* Testimonils */
+
+#testimonials{background: linear-gradient(to top, #f2709c, #ff9472);}
+.carousel-item{padding: 10%;}
+
+h2{padding:0 0 3rem 0;
+    text-align: center;
+    font-family: 'Product Sans';
+    font-size: 3rem;
+    font-weight: bold;
+color: rgb(255, 255, 255);}
+
+#test_img{ 
+    border-radius: 100%;
+width: 12rem;}
+em{color: aliceblue;}
+
+/* press */
+
+#press{ background-color: #f2709c;
+text-align: center;
+padding: 3% 0;}
+#partner{padding: 0 0 20px 0;
+margin: 0%;}
+
+#press_logo{width: 15rem;
+padding: 0 2%;}
+
+/* pricing */
+.pricing{background-image: url(dog.jpg);
+padding: 3%;}
+
+.price{color: black;
+padding-top: 5%;
+padding-bottom: 0;}
+
+
+.card-item{
+    text-align: center;
+    padding: 0 3%;
+}
+/* Call to action */
+#cta{text-align: center;
+background-color: #ff4c68;
+padding: 5%;}
+
+#f-btn{margin: 2% 3% 3% 0;}
+
+/* footer */
+Footer{margin: 7% 15%;}
+
+.f-icons{text-align: center;
+margin: 2% 20px 1%;}
